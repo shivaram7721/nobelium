@@ -1,0 +1,5 @@
+git stash apply and git stash pop are both used to restore changes that were previously stashed away using git stash. The key difference between them is that git stash apply will apply the changes but keep the stash in the stash list, while git stash pop will apply the changes and remove the stash from the stash list.
+
+git stash apply: This command applies the changes from the most recent stash on top of the current branch, but it does not remove the stash from the stash list. This means you can apply the same stash multiple times if you need to.
+
+git stash pop: This command also applies the changes from the most recent stash on top of the current branch, but it removes the stash from the stash list. This means you can only apply the stash once using this command. If you need to apply the same stash again, you'll need to use git stash apply.
